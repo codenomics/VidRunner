@@ -6,14 +6,16 @@
 
 ## Download
 
-**Latest version: v1.4** (Oct 3, 2026)
+**Latest version: v1.5** (Oct 3, 2026)
 
-- [VidRunner_v1.4_no-install.zip](https://github.com/codenomics/VidRunner/releases/download/v1.4/VidRunner_v1.4_no-install.zip) - 37 MB
-- [VidRunner_v1.4_Setup.exe](https://github.com/codenomics/VidRunner/releases/download/v1.4/VidRunner_v1.4_Setup.exe) - 37 MB
+- [VidRunner_v1.5_no-install.zip](https://github.com/codenomics/VidRunner/releases/download/v1.5/VidRunner_v1.5_no-install.zip) - 37 MB
+- [VidRunner_v1.5_Setup.exe](https://github.com/codenomics/VidRunner/releases/download/v1.5/VidRunner_v1.5_Setup.exe) - 37 MB
 
-What's new in v1.4:
+What's new in v1.5:
 
-- The window now snaps to the screen edges: drag it to the top to maximize, or to a side to fill half the screen
+- VidRunner now checks GitHub for a newer version when it starts and offers to update
+- Update now offers to save your project, downloads the new installer and runs it (installed copies)
+- The Guide (F1) shows the version and has a Check for updates button
 
 Older versions are on the [Releases page](https://github.com/codenomics/VidRunner/releases).
 
@@ -93,7 +95,8 @@ USING IT
    whole video (MP4, 30 frames per second).
 
 Save project keeps your work. Import .lrc / Save .lrc read and write lyrics
-with times. F1 opens the guide.
+with times. F1 opens the guide, which shows the version number and has a
+Check for updates button.
 
 
 GOOD TO KNOW
@@ -101,6 +104,14 @@ GOOD TO KNOW
 - Without FFmpeg VidRunner can still play .mp3 and .wav songs and tap-sync
   them, but it cannot show the wave picture or make videos.
 - Settings are kept in %APPDATA%\VidRunner\settings.txt.
+- Updates: when VidRunner starts it checks GitHub for a newer version (it only
+  reads the public release page; nothing is sent). If there is one and you
+  aren't in the middle of editing, it asks whether to update; otherwise a note
+  appears in the status bar. With the installer, Update now offers to save your
+  project, downloads the new installer (about 40 MB, FFmpeg is included) and
+  runs it; with the no-install zip it opens the download page. After "Check
+  for updates" says you're up to date, a button there turns the startup check
+  off.
 - If something goes wrong, VidRunner-log.txt next to VidRunner.exe says what.
 - To remove VidRunner: delete its folder, plus %APPDATA%\VidRunner.
 ```
