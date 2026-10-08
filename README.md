@@ -6,16 +6,15 @@
 
 ## Download
 
-**Latest version: v1.5** (Oct 3, 2026)
+**Latest version: v1.6** (Oct 8, 2026)
 
-- [VidRunner_v1.5_no-install.zip](https://github.com/codenomics/VidRunner/releases/download/v1.5/VidRunner_v1.5_no-install.zip) - 37 MB
-- [VidRunner_v1.5_Setup.exe](https://github.com/codenomics/VidRunner/releases/download/v1.5/VidRunner_v1.5_Setup.exe) - 37 MB
+- [VidRunner_v1.6_no-install.zip](https://github.com/codenomics/VidRunner/releases/download/v1.6/VidRunner_v1.6_no-install.zip) - 37 MB
+- [VidRunner_v1.6_Setup.exe](https://github.com/codenomics/VidRunner/releases/download/v1.6/VidRunner_v1.6_Setup.exe) - 37 MB
+- [VidRunner_v1.6_source.zip](https://github.com/codenomics/VidRunner/releases/download/v1.6/VidRunner_v1.6_source.zip) - 106 KB
 
-What's new in v1.5:
+What's new in v1.6:
 
-- VidRunner now checks GitHub for a newer version when it starts and offers to update
-- Update now offers to save your project, downloads the new installer and runs it (installed copies)
-- The Guide (F1) shows the version and has a Check for updates button
+- No app changes. Uploading Code**
 
 Older versions are on the [Releases page](https://github.com/codenomics/VidRunner/releases).
 
@@ -34,6 +33,10 @@ Older versions are on the [Releases page](https://github.com/codenomics/VidRunne
 3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
 
 Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## Source code
+
+Want to see how it works, or build it yourself? Download the file ending in `_source.zip` above, extract it and double-click `Build.bat`. It only uses the C# compiler that already comes with Windows, so there is nothing to install.
 
 ## More details
 
