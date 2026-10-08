@@ -6,15 +6,15 @@
 
 ## Download
 
-**Latest version: v1.6** (Oct 8, 2026)
+**Latest version: v1.7** (Oct 8, 2026)
 
-- [VidRunner_v1.6_no-install.zip](https://github.com/codenomics/VidRunner/releases/download/v1.6/VidRunner_v1.6_no-install.zip) - 37 MB
-- [VidRunner_v1.6_Setup.exe](https://github.com/codenomics/VidRunner/releases/download/v1.6/VidRunner_v1.6_Setup.exe) - 37 MB
-- [VidRunner_v1.6_source.zip](https://github.com/codenomics/VidRunner/releases/download/v1.6/VidRunner_v1.6_source.zip) - 106 KB
+- [VidRunner_v1.7_no-install.zip](https://github.com/codenomics/VidRunner/releases/download/v1.7/VidRunner_v1.7_no-install.zip) - 37 MB
+- [VidRunner_v1.7_Setup.exe](https://github.com/codenomics/VidRunner/releases/download/v1.7/VidRunner_v1.7_Setup.exe) - 37 MB
+- [VidRunner_v1.7_source.zip](https://github.com/codenomics/VidRunner/releases/download/v1.7/VidRunner_v1.7_source.zip) - 106 KB
 
-What's new in v1.6:
+What's new in v1.7:
 
-- No app changes. Uploading Code**
+- updater versioning fix**
 
 Older versions are on the [Releases page](https://github.com/codenomics/VidRunner/releases).
 
