@@ -1,20 +1,28 @@
 # VidRunner
 
+Makes lyric videos. Open a song, paste the words, tap along to the song to time each line, pick a picture, and save an MP4 you can upload anywhere.
+
 > This application is built by AI. I made this for myself and I'm uploading it to GitHub for backup and to share in case anyone can get any use out of it. It's pretty specific to my setup and my needs, but if you can get any use out of it, then enjoy.
 >
 > Use at your own risk. I offer no warranty or guarantees for this software.
 
 ## Download
 
-**Latest version: v1.7** (Oct 8, 2026)
+**Latest version: v1.8** (Oct 16, 2026)
 
-- [VidRunner_v1.7_no-install.zip](https://github.com/codenomics/VidRunner/releases/download/v1.7/VidRunner_v1.7_no-install.zip) - 37 MB
-- [VidRunner_v1.7_Setup.exe](https://github.com/codenomics/VidRunner/releases/download/v1.7/VidRunner_v1.7_Setup.exe) - 37 MB
-- [VidRunner_v1.7_source.zip](https://github.com/codenomics/VidRunner/releases/download/v1.7/VidRunner_v1.7_source.zip) - 106 KB
+- [VidRunner_v1.8_no-install.zip](https://github.com/codenomics/VidRunner/releases/download/v1.8/VidRunner_v1.8_no-install.zip) - 37 MB
+- [VidRunner_v1.8_Setup.exe](https://github.com/codenomics/VidRunner/releases/download/v1.8/VidRunner_v1.8_Setup.exe) - 37 MB
+- [VidRunner_v1.8_source.zip](https://github.com/codenomics/VidRunner/releases/download/v1.8/VidRunner_v1.8_source.zip) - 109 KB
 
-What's new in v1.7:
+What's new in v1.8:
 
-- updater versioning fix**
+- New text animation: Neon flicker (letters light up one by one like a neon sign, with a glow that follows the Strength slider)
+- New text animation: Split-flap (letters flip through random characters on little cards, like an airport board)
+- New text animation: RGB split (pink and cyan copies of the words drift apart and snap together)
+- New text animation: CRT power-on (a bright line stretches out and opens up into the words)
+- New text animation: Pixel dissolve (the words build up and crumble away in little squares)
+- Fixed the words jumping to a slightly different spot when one animation hands over to another
+- Wide tracking now keeps your letters as typed instead of turning them into capitals
 
 Older versions are on the [Releases page](https://github.com/codenomics/VidRunner/releases).
 
@@ -41,13 +49,6 @@ Want to see how it works, or build it yourself? Download the file ending in `_so
 ## More details
 
 ```
-VIDRUNNER
-=========
-
-Makes lyric videos. Open a song, paste the words, tap along to the song to
-time each line, pick a picture, and save an MP4 you can upload anywhere.
-
-
 GETTING STARTED
 ---------------
 Pick one. Both give you the same app.
@@ -91,7 +92,7 @@ USING IT
    keep favorites at the top), then outline, shadow and glow. Any color box
    has Custom... for a color picker.
 7. Animation tab: choose how a line comes in and goes out (Slide, Zoom,
-   Typewriter, Glitch, Decode, Hologram, Light sweep and more), a
+   Typewriter, Glitch, Decode, Hologram, Light sweep, Neon flicker, Split-flap, CRT power-on and more), a
    separate direction for in and out, and speed and strength. Press Play to watch it. Save look...
    and Load look... keep your text and animation settings as a template.
 8. Test clip (10 s) checks a short piece fast. Export video... makes the
